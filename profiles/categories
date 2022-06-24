@@ -1,0 +1,12 @@
+sci-electronics
+app-editors
+esoteric-language
+dev-neko
+dev-haxe
+mingw-scheme
+game-libs
+game-utils
+cross-x86_64-w64-mingw32
+cross-h8300-elf
+cross-rx-elf
+cross-i686-w64-mingw32

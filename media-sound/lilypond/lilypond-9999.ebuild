@@ -74,7 +74,8 @@ src_prepare() {
 	sed -i 's/OPTIMIZE -g/OPTIMIZE/' aclocal.m4 || die
 
 	# remove bundled texinfo file (fixes bug #448560)
-	rm tex/texinfo.tex || die
+	# rm tex/texinfo.tex || die
+	touch HACKING
 
 	eautoreconf
 
